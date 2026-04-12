@@ -7,9 +7,9 @@ public class EternalGoal : Goal
         
     }
 
-    public override void RecordEvent()
+    public override int RecordEvent()
     {
-        Console.WriteLine("This goal has been register");
+        return GetPoints(); // Las metas eternas siempre te dan los puntos
     }
 
 
